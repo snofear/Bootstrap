@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8";>
+    <title>Bootstrap</title>
+    <link type="text/css" rel="stylesheet" href="bootstrap1.css";>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="telo">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+        
+            <a href = "#" class="navbar-brand">Tech site</a>
+            
+            <button class="navbar-toggle" data-toogle = "collapse" data-target =".navHeaderCollapse">
+            <span class = "icon-bar"></span>  
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>    
+            </button>
+    
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class="nav navbar-nav navbar-right">
+                
+                    <li class="active"><a href ="file:///C:/Programiranje/Bootstrap/bootstrap.html">Domov</a></li>
+                    <li><a href ="C:/Programiranje/Bootstrap/bootstrap-druga-stran.html">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">O nas<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">Instagram</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href ="#">Akcija</a></li>
+                    <li><a href="#contact" data-toggle="modal" data-target="#contact">Kontakt</a></li>
+                
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+   
+    <div class="container">
+
+        <div class="jumbotron">
+            <center><h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet, malis singulis ei mel, id animal propriae ius, eum ei epicuri molestie euripidis. Lucilius voluptaria ut vix, dolorum percipitur disputando mea te, ea eos tritani tractatos repudiare. Diam option ea mei. Nam ceteros facilisis moderatius id, ea malis iudico referrentur duo, ex sit sapientem intellegam. Pri ei enim vocent minimum, vis ne ipsum patrioque democritum. Cum ut iracundia scribentur.</p>
+            <a class="btn btn-default">Glej zdaj!</a>
+            <a class="btn btn-info">Twitaj!</a></center>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+        
+            <div class="col-md-3">
+            
+                <h3><a href ="#"> $500 Gamin PC Build</a></h3>
+                <p>Lorem ipsum dolor sit amet, malis singulis ei mel, id animal propriae ius, eum ei epicuri molestie euripidis. Lucilius voluptaria ut vix, dolorum percipitur disputando mea te, ea eos tritani tractatos repudiare. Diam option ea mei.</p>
+                <a href="#" class="btn btn-default">Preberite več</a>
+            </div>
+            <div class="col-md-3">
+            
+                <h3><a href ="#"> $500 Gamin PC Build</a></h3>
+                <p>Lorem ipsum dolor sit amet, malis singulis ei mel, id animal propriae ius, eum ei epicuri molestie euripidis. Lucilius voluptaria ut vix, dolorum percipitur disputando mea te, ea eos tritani tractatos repudiare. Diam option ea mei.</p>
+                <a href="#" class="btn btn-default">Preberite več</a>
+            </div>
+            <div class="col-md-3">
+            
+                <h3><a href ="#"> $500 Gamin PC Build</a></h3>
+                <p>Lorem ipsum dolor sit amet, malis singulis ei mel, id animal propriae ius, eum ei epicuri molestie euripidis. Lucilius voluptaria ut vix, dolorum percipitur disputando mea te, ea eos tritani tractatos repudiare. Diam option ea mei.</p>
+                <a href="#" class="btn btn-default">Preberite več</a>
+            </div>
+            <div class="col-md-3">
+            
+                <h3><a href ="#"> $500 Gamin PC Build</a></h3>
+                <p>Lorem ipsum dolor sit amet, malis singulis ei mel, id animal propriae ius, eum ei epicuri molestie euripidis. Lucilius voluptaria ut vix, dolorum percipitur disputando mea te, ea eos tritani tractatos repudiare. Diam option ea mei.</p>
+                <a href="#" class="btn btn-default">Preberite več</a>
+            </div>
+        
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    
+        <div class="container">
+        
+            <p class="navbar-text pull-left">Moja stran</p>
+            <a href="http://youtube.com/" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>        
+        </div>
+    
+    </div>
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Kontaktna stran</h4>
+                    </div>
+                    <div class="modal-body">
+                   
+                    <div class="form-group">
+                    
+                        <label for="contact-name" class="col-lg-2 control-label">Ime</label>
+                        <div class="col-lg-10">
+                        
+                            <input type="text" class="form-control" id="contact-name" placeholder="Celo ime"
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    </div>
+                        
+                    <div class="form-group">
+                    
+                        <label for="contact-name" class="col-lg-2 control-label">E-mail</label>
+                        <div class="col-lg-10">
+                        
+                            <input type="email" class="form-control" id="contact-email" placeholder="Napiši mail"
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                    
+                        <label for="contact-name" class="col-lg-2 control-label">Sporočilo</label>
+                        <div class="col-lg-10">
+                        
+                            <textarea class="form-control" rows="8"></textarea>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    </div>
+                    
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Zapri</a>
+                        <button class="btn btn-primary" type="submit">Pošlji</button>
+                    </div>
+                </form>
+                    
+            </div>
+        </div>
+    
+    
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
